@@ -5,9 +5,11 @@ on:
     branches: [master, main]
 
 jobs:
-  lint-md:
+  lint-markdown:
     runs-on: ubuntu-latest
     steps:
-      - run: npm install
-      - run: npm run format
-      - run: npm run lint:md
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: lint-md-github-action
+        uses: lint-md/github-action@v0.0.2
