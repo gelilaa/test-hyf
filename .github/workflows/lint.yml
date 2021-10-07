@@ -15,5 +15,4 @@ jobs:
       - run: npm run format
       - run: npm run lint:md
 
-      - name: lint-md-github-action
-        uses: lint-md/github-action@v0.0.2
+    
