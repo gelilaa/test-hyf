@@ -5,7 +5,7 @@
   "scripts": {
     "format": "prettier --write ./",
     "spell-check": "cspell './**'",
-    "lint:md": "markdownlint --ignore node_modules --config ./.markdownlint.jsonc --fix ./ "
+    "lint-markdown": "markdownlint --ignore node_modules --config ./.markdownlint.jsonc --fix ./ "
   },
   "author": "HYF Belgium",
   "license": "MIT",
